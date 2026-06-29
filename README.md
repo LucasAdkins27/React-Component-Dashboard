@@ -11,15 +11,15 @@ This project is a singular-page React dashboard made with functional components 
 #Folder Structure: 
 
 src/
-  App.jsx
-  components/
-    Header/
-    ThemeToggle/
-    StatsSummary/
-    AddHabitForm/
-    HabitList/
-    HabitItem/
-    AboutView/
+   .App.jsx
+  .components/
+    .Header/
+    .ThemeToggle/
+    .StatsSummary/
+    .AddHabitForm/
+    .HabitList/
+    .HabitItem/
+    .AboutView/
 
 (App.jsx is the top parent, owning the entire state. Header includes the view switcher/theme toggler. ThemeToggle is a child of the Header. StatsSummary is the dashboard of stats cards. AddHabitForm is the control form. HabitList maps over habits[] -> HabitItem. HabitItem is a child of the HabitList. About view is the second tab or view)
 
